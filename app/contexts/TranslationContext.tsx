@@ -5,7 +5,6 @@ import {
   collectTextNodes,
   applyTranslations,
   resetToOriginal,
-  isTranslated as checkIsTranslated,
 } from "../utils/translateDOM";
 
 type Language = "SV" | "FI" | null;
